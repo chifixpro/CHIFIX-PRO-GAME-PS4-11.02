@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:linear-gradient(135deg,#050505,#0b1f3a);
+    color:#fff;
+    font-family:Arial,Helvetica,sans-serif;
+    line-height:1.6;
+}
+
+header{
+    text-align:center;
+    padding:60px 20px;
+}
+
+.logo{
+    width:180px;
+    border-radius:20px;
+    box-shadow:0 0 25px #0099ff;
+    margin-bottom:20px;
+}
+
+h1{
+    color:#00bfff;
+    font-size:42px;
+    text-shadow:0 0 20px #008cff;
+}
+
+.subtitle{
+    margin-top:10px;
+    color:#ddd;
+    font-size:18px;
+}
+
+.services{
+    width:90%;
+    max-width:1200px;
+    margin:40px auto;
+    text-align:center;
+}
+
+.services h2,
+.contact h2{
+    color:#00bfff;
+    margin-bottom:30px;
+    font-size:32px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#111827;
+    border:1px solid #008cff;
+    border-radius:15px;
+    padding:25px;
+    transition:.3s;
+    box-shadow:0 0 15px rgba(0,140,255,.3);
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 25px #00bfff;
+}
+
+.card h3{
+    color:#00bfff;
+    margin-bottom:15px;
+}
+
+.contact{
+    text-align:center;
+    padding:60px 20px;
+}
+
+.contact h3{
+    font-size:28px;
+    color:#fff;
+    margin:15px 0;
+}
+
+.btn{
+    display:inline-block;
+    margin:10px;
+    padding:15px 35px;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.whatsapp{
+    background:#25D366;
+    color:#fff;
+}
+
+.whatsapp:hover{
+    background:#1db954;
+    transform:scale(1.05);
+}
+
+.tiktok{
+    background:#111;
+    border:2px solid #00bfff;
+    color:#fff;
+}
+
+.tiktok:hover{
+    background:#00bfff;
+    color:#000;
+    transform:scale(1.05);
+}
+
+footer{
+    margin-top:50px;
+    padding:25px;
+    text-align:center;
+    background:#030303;
+    color:#999;
+}
+
+::-webkit-scrollbar{
+    width:10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#00bfff;
+    border-radius:10px;
+}
+
+::-webkit-scrollbar-track{
+    background:#111;
+}
+
+@media(max-width:768px){
+
+    h1{
+        font-size:32px;
+    }
+
+    .logo{
+        width:140px;
+    }
+
+    .subtitle{
+        font-size:16px;
+    }
+
+}
